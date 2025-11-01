@@ -59,6 +59,7 @@ main {
 
 .page-nav {
     display: flex;
+    align-items: center;
 }
 
 .main-logo {
@@ -81,11 +82,11 @@ main {
 }
 
 .nav-list {
-
+    display: flex;
 }
 
 .nav-list-item {
-    display: inline-block;
+    
 }
 
 .nav-list-item:not(:last-child) {
@@ -108,15 +109,15 @@ main {
 
 .contact {
     font-style: normal;
-    
 }
 
 .contact-list {
     color: #434455;
+    display: flex;
 }
 
 .contact-list-item {
-    display: inline-block;
+
 }
 
 .contact-list-item:not(:first-child) {
