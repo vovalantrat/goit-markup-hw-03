@@ -317,11 +317,15 @@ main {
     padding: 100px 0;
 }
 
+.page-footer .main-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
 .footer-content {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
-    padding-top: 16px;
 }
 
 /* #endregion */
