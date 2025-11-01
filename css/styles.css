@@ -283,10 +283,25 @@ main {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-list-item {
-    border-bottom: 1px solid #E7E9FC;
+    
+}
+
+.portfolio-dscr {
+    padding: 32px 16px;
+    border: 1px solid #E7E9FC;
+    border-top: none;
+}
+
+.portfolio-dscr .list-item-title {
+    padding: 0;
+}
+
+.portfolio-dscr .list-item-content {
+    padding: 0;
 }
 
 .portfolio-img-content {
